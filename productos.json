@@ -1,0 +1,298 @@
+[
+    {
+        "id":1,
+        "titulo": "Remera Sublimada",
+        "imagen": "https://i.postimg.cc/6p7g17XC/remera-1.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"remeras"
+        }
+        
+    },
+    {
+        "id":2,
+        "titulo":"Remera Sublimada",
+        "imagen":"https://i.postimg.cc/2SPMpzkM/remera-2.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"remeras"
+        }
+    },
+    {
+        "id":3,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/HsS1ND71/chomba-1.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":4,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/Z5Czt7rB/chomba-2.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":5,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/sDfRKDxJ/chomba-3.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":6,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/SRPky7wj/chomba-4.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":7,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/vBcGCNNC/chomba-5.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":8,
+        "titulo":"Chombas Pique personalizada",
+        "imagen":"https://i.postimg.cc/bwhNdLZ2/chomba-6.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":9,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/bNbwz4wh/chomba-7.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":10,
+        "titulo":"Chomba Pique personalizada",
+        "imagen":"https://i.postimg.cc/Jh7r5ncr/chomba-8.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":11,
+        "titulo":"Chombas Pique personalizadas",
+        "imagen":"https://i.postimg.cc/MZgGJzx5/chomba-9.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":12,
+        "titulo":"Chombas Pique personalizadas",
+        "imagen":"https://i.postimg.cc/XYkN5F51/chomba-10.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"chombas"
+        }
+    },
+    {
+        "id":13,
+        "titulo":"Remera Sublimada",
+        "imagen":"https://i.postimg.cc/6p7g17XC/remera-1.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"remeras"
+        }
+    },
+    {
+        "id":14,
+        "titulo":"Remera Sublimada",
+        "imagen":"https://i.postimg.cc/2SPMpzkM/remera-2.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"remeras" 
+        }
+    },
+    {
+        "id":15,
+        "titulo":"Gorra Los Ott",
+        "imagen":"https://i.postimg.cc/yYcCVQxk/Mi-Conv-com-gorra-1.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"gorras" 
+        }
+    },
+    {
+        "id":16,
+        "titulo":"Gorra Pescador",
+        "imagen":"https://i.postimg.cc/7LPFnqV2/Mi-Conv-com-gorra-2.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"gorras" 
+        }
+    },
+    {
+        "id":17,
+        "titulo":"Gorra",
+        "imagen":"https://i.postimg.cc/t4z06shb/Mi-Conv-com-gorra-3.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"gorras" 
+        }
+    },
+    {
+        "id":18,
+        "titulo":"Gorra Tio Polo",
+        "imagen":"https://i.postimg.cc/t4bQ73nD/Mi-Conv-com-gorra-4.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"gorras" 
+        }
+    },
+    {
+        "id":19,
+        "titulo":"Toallas de mano",
+        "imagen":"https://i.postimg.cc/sgWdgn2M/Mi-Conv-com-toalla-1.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":20,
+        "titulo":"Toalla de mano",
+        "imagen":"https://i.postimg.cc/LsMdYzqN/Mi-Conv-com-toalla-2.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":21,
+        "titulo":"Toalla de mano",
+        "imagen":"https://i.postimg.cc/Vs7cGrTk/Mi-Conv-com-toalla-3.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":22,
+        "titulo":"Toalla de mano",
+        "imagen":"https://i.postimg.cc/zfwsnVK5/Mi-Conv-com-toalla-4.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":23,
+        "titulo":"Toallas de mano",
+        "imagen":"https://i.postimg.cc/gjBFnQRZ/Mi-Conv-com-toalla-5.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":24,
+        "titulo":"Toalla de mano",
+        "imagen":"https://i.postimg.cc/KjYhcxKb/Mi-Conv-com-toalla-6.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":25,
+        "titulo":"Toalla de mano",
+        "imagen":"https://i.postimg.cc/pX4MxNPN/Mi-Conv-com-toalla-7.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":26,
+        "titulo":"Toalla de mano",
+        "imagen":"https://i.postimg.cc/dtLczQPm/Mi-Conv-com-toalla-8.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"toallas" 
+        }
+    },
+    {
+        "id":27,
+        "titulo":"Bolso De Cuero",
+        "imagen":"https://i.postimg.cc/05hwwQfb/Mi-Conv-com-bolso-1.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"bolsos" 
+        }
+    },
+    {
+        "id":28,
+        "titulo":"Bolso De Cuero",
+        "imagen":"https://i.postimg.cc/jdNJQbgv/Mi-Conv-com-bolso-2.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"bolsos" 
+        }
+    },
+    {
+        "id":29,
+        "titulo":"Bolso De Cuero",
+        "imagen":"https://i.postimg.cc/5jcbND82/Mi-Conv-com-bolso-3.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"bolsos" 
+        }
+    },
+    {
+        "id":30,
+        "titulo":"Bolso De Cuero",
+        "imagen":"https://i.postimg.cc/Z5SvwMXm/Mi-Conv-com-bolso-4.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"bolsos" 
+        }
+    },
+    {
+        "id":31,
+        "titulo":"Bolso De Cuero",
+        "imagen":"https://i.postimg.cc/sfMWxS5k/Mi-Conv-com-bolso-5.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"bolsos" 
+        }
+    },
+    {
+        "id":32,
+        "titulo":"Bolso De Cuero",
+        "imagen":"https://i.postimg.cc/Kj3mbmkW/Mi-Conv-com-bolso-6.webp",
+        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
+        "categoria": {
+            "id":"bolsos" 
+        }
+    }
+  
+   
+    
+
+    
+   
+
+]
