@@ -664,6 +664,9 @@ body{
     .footer-nosotros{
         margin-top: 20em;
     }
+    .banner-nosotros{
+        transform: translateY(50px);
+    }
     
 }
 
