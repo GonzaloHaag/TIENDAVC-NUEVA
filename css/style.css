@@ -655,9 +655,15 @@ body{
     }
     
 }
-@media screen and (min-width:992px){
+/* @media screen and (min-width:992px){
     .footer-nosotros{
          height: 29.7%;
     }
+} */
+@media screen and(min-width:768px) {
+    .footer-nosotros{
+        height: 40%;
+    }
+    
 }
 
