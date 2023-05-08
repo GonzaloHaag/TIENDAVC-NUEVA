@@ -660,9 +660,9 @@ body{
          height: 29.7%;
     }
 } */
-@media screen and(max-width:768px) {
+@media screen and(min-width:768px) {
     .footer-nosotros{
-        height: 40%;
+        height: 70vh;
     }
     
 }
