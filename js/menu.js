@@ -26,23 +26,67 @@ closeMenu.addEventListener("click",()=>{
 //Buscador
 const form = document.querySelector(".d-flex");
 const input = document.querySelector(".form-control");
+const formDesktop = document.querySelector(".d-flex-desktop");
+const inputDesktop = document.querySelector(".form-control-desktop");
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
-    let escritoEnInput = input.value;
-    escritoEnInput = escritoEnInput.charAt(0).toUpperCase();
-    
-    const coincidencias = todosLosProductos.filter((elemento)=> elemento.titulo.includes(escritoEnInput));
 
-    mostrarProductos(coincidencias);
+    let escritoEnInput = input.value;
+    
+    const primeraLetraMayus = escritoEnInput.charAt(0).toUpperCase() + escritoEnInput.slice(1);
+
+    const filtrado = todosLosProductos.filter((elemento)=>elemento.titulo.includes(primeraLetraMayus));
+
+
+    if(filtrado.length >= 1) {
+        mostrarProductos(filtrado);
+
+    }
+    else{
+        productosContainer.innerHTML = `<p class="p-noResultados">NO SE ENCONTRARON COINCIDENCIAS</p>`
+    }
+ 
+
+    form.reset();
+
+
+});
+formDesktop.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    let escritoEnInput = inputDesktop.value;
+
+    const primeraLetraMayus = escritoEnInput.charAt(0).toUpperCase() + escritoEnInput.slice(1);
+    const filtrado = todosLosProductos.filter((elemento)=>elemento.titulo.includes(primeraLetraMayus));
+
+
+    if(filtrado.length >= 1) {
+        mostrarProductos(filtrado);
+
+    }
+    else{
+        productosContainer.innerHTML = `<p class="p-noResultados">NO SE ENCONTRARON COINCIDENCIAS</p>`
+    }
+ 
+
+    formDesktop.reset();
+
 });
 
 const btnSubmit = document.querySelector(".btn-outline-success");
 btnSubmit.addEventListener("click",()=>{
-
+    
     productosContainer.scrollIntoView({behavior: "smooth"});
 
-})
+});
+
+const submitDesktop = document.querySelector(".btn-outline-success-desktop"); 
+submitDesktop.addEventListener("click",()=>{
+    
+    productosContainer.scrollIntoView({behavior: "smooth"});
+
+});
+
 
 const botonAbrirBuscador = document.querySelector(".fa-magnifying-glass");
 const formContainer = document.querySelector(".buscador-container");
@@ -56,4 +100,10 @@ const buttonVolver = document.querySelector(".bi-arrow-return-left");
 buttonVolver.addEventListener("click",()=>{
     formContainer.classList.add("disabled");
     botonAbrirBuscador.classList.remove("disabled");
+})
+
+const buttonContactoMobile = document.querySelector(".menu-item-contacto");
+
+buttonContactoMobile.addEventListener("click",()=>{
+    divMenu.classList.add("disabled");
 })

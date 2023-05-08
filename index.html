@@ -30,7 +30,7 @@
            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
          
            
-            <button class="btn btn-outline-success" type="submit" form="miFormulario">Buscar</button>
+            <button class="btn btn-outline-success" type="submit" id="miFormulario">Buscar</button>
           </form>
     </div>
     <div class="menu-mobile disabled">
@@ -47,34 +47,37 @@
                     <li><a id="bolsos" class ="boton-categoria-mobile" href="#productos">Bolsos</a></li>
                 </ul>
             </div>
-            <li class="menu-item"><a href="#">Nosotros</a></li>
-            <li class="menu-item"><a href="#">Contacto</a></li>
+            <li class="menu-item"><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li class="menu-item menu-item-contacto"><a href="#contacto">Contacto</a></li>
         </ul>
     </div>
 
   </nav>
   <div class="container-todo">
+    <a href="https://api.whatsapp.com/send?phone=3447432360&text=Me%20interesa%20saber%20mas%20sobre%20los%20productos..." target="_blank"><i class="bi bi-whatsapp"></i></a>
   <header class="header-desktop">
-    <form action="#productos" class="d-flex" role="search" id="miFormulario">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" form="miFormulario">Search</button>
-      </form>
+    <form action="#productos" class="d-flex d-flex-desktop" role="search" id="miFormulario-2">
+      <input class="form-control form-control-desktop me-2" type="search" placeholder="Buscar" aria-label="Search">
+    
+      
+       <button class="btn btn-outline-success btn-outline-success-desktop" type="submit" id="miFormulario-2">Buscar</button>
+     </form>
       <img class="logo-desktop" src="./images/logo-removebg-preview.png" alt="logo"/>
 
-      <a class="header-contactanos" href="#">CONTACTANOS!<i class="fa-brands fa-whatsapp"></i></a>
+      <a class="header-contactanos" href="https://api.whatsapp.com/send?phone=3447432360&text=Me%20interesa%20saber%20mas%20sobre%20los%20productos..." target="_blank">CONTACTANOS<i class="fa-brands fa-whatsapp"></i></a>
   </header>
   <main class="main">
     <div class="container">
         <div class="navbar-home">
-            <a id="inicio" class="active" href="#">INICIO</a>
-            <a href="#productos">PRODUCTOS</a>
-            <a href="#">WHATSAPP</a>
+            <a class="nav-item-home" id="inicio" class="active" href="#">INICIO</a>
+            <a class="nav-item-home" href="#productos">PRODUCTOS</a>
+            <a class="nav-item-home" href="#contacto">CONTACTO</a>
         </div>
         <div class="navbar-home-desktop">
             <ul>
                 <li><a class="nav-item-home active" href="./index.html">INICIO</a></li>
                 <li><a class="nav-item-home" href="#productos">PRODUCTOS</a></li>
-                <li><a class="nav-item-home" href="#">NOSOTROS</a></li>
+                <li><a class="nav-item-home" href="./pages/nosotros.html">NOSOTROS</a></li>
                 <li><a class="nav-item-home" href="#contacto">CONTACTO</a></li>
 
             </ul>
@@ -225,7 +228,7 @@
     <div class="footer-container redes-container">
      <p class="title-footer">REDES SOCIALES</p>
      <div class="redes">
-     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     <a href="https://www.instagram.com/confecciones._.valentina/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
      <a href=""><i class="fa-brands fa-twitter"></i></a>
     </div>
@@ -234,8 +237,8 @@
    </footer>
 </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="./js/menu.js"></script>
-    <script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>

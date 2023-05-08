@@ -76,6 +76,9 @@ body{
     justify-content: space-between;
     padding-right: 0.5em;
 }
+.form-control{
+    position: relative;
+}
 .buscador-container{
     position: absolute;
     width: 100%;
@@ -88,10 +91,22 @@ body{
 .bi-arrow-return-left{
     position: absolute;
     color: blue;
-    margin-left: 60%;
-    margin-top: 2%;
+    right: 35%;
     cursor: pointer;
+    z-index: 200;
+    bottom: 10%;
     
+}
+.p-noResultados{
+    font-size: 12px;
+    width: max-content;
+    display: flex;
+    color: var(--verdeOscuro);
+    margin-left: 10%;
+    
+}
+.fa-magnifying-glass{
+    margin-top: 0.5em;
 }
 .open-menu, .close-menu, .open-menu-productos{
     cursor: pointer;
@@ -166,9 +181,13 @@ body{
     align-items: center;
     margin-top: 0.5em;
 }
-.logo-carrousel .logo{
+
+.logo{
     width: 10em;
+    
+   
 }
+
 
 .text-principal{
     text-transform: uppercase;
@@ -242,6 +261,10 @@ body{
     margin: 0 auto;
     border: none;
     border-radius: 2em;
+    transition: 0.2s;
+}
+.btn-consulta:hover{
+    background-color: var(--verdeClaro);
 }
 .btn-consulta a{
     text-decoration: none;
@@ -358,6 +381,69 @@ body{
     text-decoration: underline;
 }
 
+
+
+/*****NOSOTROS***/
+.nosotros{
+    margin-top: 2em;
+    
+}
+.nosotros-title{
+    font-size: 12px;
+}
+.nosotros-title strong{
+    font-weight: 900;
+}
+.nosotros-text{
+    font-size: 12px;
+    font-weight: 100;
+}
+.nosotros-text strong{
+    color: var(--verdeOscuro);
+    font-weight: 900;
+}
+.img-container{
+    width: max-content;
+    margin: 0 auto;
+}
+
+/**TERMINOS Y CONDICIONES **/
+.terminos-condiciones { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.terminos h2{
+
+    color: var(--verdeOscuro);
+  
+}
+.terminos h4{
+    font-size: 12px;
+    font-weight: 900;
+}
+.terminos p{
+    font-size: 12px;
+}
+.terminos ul li{
+    font-size: 12px;
+}
+
+/**BOTON FLOTANTE WSP**/
+.bi-whatsapp{
+    position: fixed;
+    background-color: #4DC247;
+    color: #fff;
+    font-size: 25px;
+    right: 5%;
+    bottom: 3%;
+    border-radius: 100%;
+    padding: 0.1em 0.3em;
+    z-index: 500;
+}
+
 @media screen and (min-width:600px) {
      .footer{
         display: flex;
@@ -421,7 +507,6 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* padding-inline: 2em; */
         width: 80%;
         margin: 0 auto;
     }
@@ -433,9 +518,6 @@ body{
         gap: 0.5em;
     }
    
-    /* main{
-        padding-inline: 2em;
-    } */
     .d-flex{
         width: 15em;
         
@@ -487,7 +569,6 @@ body{
     .productos-container{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        /* padding-left: 0.5em;*/
         padding-top: 1.2em; 
        
     }
@@ -522,6 +603,8 @@ body{
     .productos-container{
         grid-template-columns: repeat(5,1fr);
     }
+    
+      
 
 }
 @media screen and (min-width:1400px){
@@ -562,6 +645,7 @@ body{
         transform: translateX(2px);
         width: max-content;
     }
+  
     
 }
 @media  screen and (max-width:600px) {
@@ -571,3 +655,9 @@ body{
     }
     
 }
+@media screen and (min-width:992px){
+    .footer-nosotros{
+         height: 29.7%;
+    }
+}
+
