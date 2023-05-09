@@ -107,3 +107,20 @@ const buttonContactoMobile = document.querySelector(".menu-item-contacto");
 buttonContactoMobile.addEventListener("click",()=>{
     divMenu.classList.add("disabled");
 })
+
+
+//Scroll hacia abajo y quede fixed mi navbar-home
+let scrolled = false; // variable que almacena el estado del scroll
+const navbarFixed = document.querySelector(".navbar-home");
+
+window.addEventListener('scroll', function() {
+    if (!scrolled && window.scrollY > 0) {
+      scrolled = true;
+      navbarFixed.classList.add("fixed");
+      // Hacer algo cuando se detecta el primer scroll hacia abajo
+    } else if (scrolled && window.scrollY === 0) {
+      scrolled = false;
+      navbarFixed.classList.remove("fixed");
+      // Hacer algo cuando el usuario vuelva al principio de la página
+    }
+  });

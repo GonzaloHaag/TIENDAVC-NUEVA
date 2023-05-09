@@ -18,11 +18,30 @@ var swiper = new Swiper(".mySwiper", {
 
 let todosLosProductos = [];
 
+const btnVerMas = document.querySelector(".ver-mas");
+
+
 fetch("../productos.json")
 .then((res)=>res.json())
 .then((data)=>{
     todosLosProductos = data;
-    mostrarProductos(todosLosProductos);
+   
+     mostrarProductos(todosLosProductos.slice(0,14)); //muestra los primeros 14
+    
+    btnVerMas.addEventListener("click",()=>{
+            mostrarProductos(todosLosProductos.slice(0,36));
+            btnVerMas.classList.add("disabled");
+
+          
+          
+        
+      
+      
+      
+        
+        
+    })
+  
 })
 
 const productosContainer = document.querySelector(".productos-container");
@@ -36,7 +55,7 @@ function mostrarProductos(arrayProductos){
         let div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
-        <img src=${producto.imagen} alt=${producto.titulo}/>
+        <img class="producto-img" src=${producto.imagen} alt=${producto.titulo}/>
         <div class="producto-detalles">
         <p>${producto.titulo}</p>
         <button class="btn-consulta"><a href="https://api.whatsapp.com/send?phone=3447432360&text=Me%20interesa%20saber%20mas%20sobre%20los%20productos..." target="_blank">Consultar</a><i class="fa-brands fa-whatsapp"></i></button>
@@ -44,6 +63,12 @@ function mostrarProductos(arrayProductos){
         `
         productosContainer.append(div);
     });
+    const imagenesProducto = document.querySelectorAll(".producto-img");
+    imagenesProducto.forEach((img)=>{
+        img.addEventListener("click",()=>{
+            img.classList.toggle("scale");
+        })
+    })
 
 }
 
@@ -57,7 +82,8 @@ btnCategorias.forEach((btn)=>{
         mostrarProductos(filterCategoria);
         }
         else{
-            mostrarProductos(todosLosProductos);
+            btnVerMas.classList.remove("disabled");
+            mostrarProductos(todosLosProductos.slice(0,14));
         }
 
         
@@ -90,3 +116,6 @@ navItemHome.forEach((nav)=>{
 
     })
 })
+
+
+
