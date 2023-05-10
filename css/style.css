@@ -27,6 +27,8 @@ body{
     
 }
 
+
+
 main{
     margin-left: 0;
     margin-right: 0;
@@ -587,27 +589,7 @@ main{
     .ver-mas-desktop.disabled{
         display: none;
     }
-   
-    .ocultar-desktop{
-        background-color: var(--pinkOscuro);
-        color:#fff;
-        width: max-content;
-        padding: 0.3em 0.8em;
-        border-radius: 2em;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2em;
-        border: 0;
-        transform: translateY(-50px);
-
-    }
-    .ocultar-desktop.disabled{
-        display: none;
-    }
-  
-    .div-container-desktop{
+   .div-container-desktop{
        
         padding-inline: 2em;
     }
@@ -719,6 +701,7 @@ main{
         position: absolute;
         width: 100%;
         right: 0;
+        bottom: 0;
         
     }
     .categorias-container{
@@ -839,11 +822,17 @@ main{
 }
 
 @media screen and (min-width:767px) {
-    .footer-nosotros{
-        margin-top: 20em;
-    }
     .banner-nosotros{
-        transform: translateY(200px);
+        
+        transform: translateY(10%);
+        margin-bottom: 0;
+    }
+    
+}
+@media screen and (min-width:1092px) {
+    .banner-nosotros {
+        transform: translateY(50%);
+        
     }
     
 }
