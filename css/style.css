@@ -190,7 +190,7 @@ main{
     top: -3%;
     width: 100%;
     z-index: 200;
-    padding-top: 2em;
+    padding-top: 1.5em;
     
 }
 
@@ -267,16 +267,16 @@ main{
 }
 .list-categorias li {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 12px;
     background-color:#E7E8EC;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.8em;
 }
 
 .productos-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
-    padding-inline: 0.5em;
+    padding-inline: 0.8em;
     width: 100%;
 }
 .producto p{
