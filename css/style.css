@@ -701,8 +701,14 @@ main{
         position: absolute;
         width: 100%;
         right: 0;
-        bottom: 0;
+       
         
+    }
+    .footer-nosotros{
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 0;
     }
     .categorias-container{
         display: none;
