@@ -19,6 +19,11 @@ var swiper = new Swiper(".mySwiper", {
 let todosLosProductos = [];
 
 const btnVerMas = document.querySelector(".ver-mas");
+const btnVerMasDesktop = document.querySelector(".ver-mas-desktop");
+
+
+
+
 
 
 fetch("../productos.json")
@@ -26,22 +31,22 @@ fetch("../productos.json")
 .then((data)=>{
     todosLosProductos = data;
    
-     mostrarProductos(todosLosProductos.slice(0,14)); //muestra los primeros 14
+     mostrarProductos(todosLosProductos.slice(0,12)); //muestra los primeros 12
     
     btnVerMas.addEventListener("click",()=>{
-            mostrarProductos(todosLosProductos.slice(0,36));
+            mostrarProductos(todosLosProductos.slice()); //Muestra todos los productos
             btnVerMas.classList.add("disabled");
+          
+           
+   });
 
-          
-          
-        
-      
-      
-      
-        
-        
-    })
-  
+   btnVerMasDesktop.addEventListener("click",()=>{
+    mostrarProductos(todosLosProductos.slice());
+    btnVerMasDesktop.classList.add("disabled");
+   })
+   
+
+
 })
 
 const productosContainer = document.querySelector(".productos-container");
@@ -84,6 +89,7 @@ btnCategorias.forEach((btn)=>{
         else{
             btnVerMas.classList.remove("disabled");
             mostrarProductos(todosLosProductos.slice(0,14));
+            btnVerMasDesktop.classList.remove("disabled");
         }
 
         

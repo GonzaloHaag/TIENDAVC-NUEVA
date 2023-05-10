@@ -53,9 +53,11 @@
     </div>
 
   </nav>
-  <div class="container-todo">
+ 
     <a href="https://api.whatsapp.com/send?phone=3447432360&text=Me%20interesa%20saber%20mas%20sobre%20los%20productos..."
       target="_blank"><i class="bi bi-whatsapp"></i></a>
+
+  <div class="div-container-desktop">
     <header class="header-desktop">
       <form action="#productos" class="d-flex d-flex-desktop" role="search" id="miFormulario-2">
         <input class="form-control form-control-desktop me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -71,7 +73,7 @@
         target="_blank">CONTACTANOS<i class="fa-brands fa-whatsapp"></i></a>
     </header>
     <main class="main">
-      <!-- <div class="container"> -->
+    
         
         <div class="navbar-home">
           <a class="nav-item-home" id="inicio" class="active" href="./index.html">INICIO</a>
@@ -95,7 +97,7 @@
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img src="./images/nosotros-1.jpg"></div>
-              <div class="swiper-slide"><img src="./images/nosotros-2.jpg"></div>
+              <div class="swiper-slide"><img src="./images/nosotros-5.jpg"></div>
               <div class="swiper-slide"><img src="./images/nosotros-4.jpg"></div>
 
             </div>
@@ -142,8 +144,11 @@
             </section>
             <button class="ver-mas">Ver todos los productos</button>
           </div>
-
-
+           
+          
+     
+          <button class="ver-mas-desktop">Ver todos los productos</button>
+       
           <hr />
           <div class="banner banner-mobile">
             <div class="swiper mySwiper swiper-footer">
@@ -186,22 +191,22 @@
               <i class="fa-regular fa-credit-card"></i>
               <div class="texts-brand">
                 <p>PAGÁ CON TARJETA</p>
-                <p>Aceptamos todas las tarjetas de crédito</p>
+                <p class="banner-desktop-text">Aceptamos todas las tarjetas de crédito</p>
               </div>
             </div>
             <div class="tarjeta-container">
               <i class="fa-regular fa-credit-card"></i>
               <div class="texts-brand">
                 <p>3 CUOTAS SIN INTERÉS</p>
-                <p>Todos los días con tarjetas Visa o Master</p>
+                <p class="banner-desktop-text">Todos los días con tarjetas Visa o Master</p>
               </div>
             </div>
 
-            <div class="tarjeta-container">
+            <div class="tarjeta-container tarjeta-wsp">
               <i class="fa-brands fa-whatsapp"></i>
-              <div class="texts-brand">
+              <div class="texts-brand texts-brand-wsp">
                 <p>WHATSAPP</p>
-                <p>Envianos tu consulta</p>
+                <p class="consulta-footer">Envianos tu consulta</p>
               </div>
             </div>
 
@@ -209,7 +214,7 @@
 
         </div>
 
-      <!-- </div> -->
+
 
     </main>
     <footer class="footer">
@@ -245,7 +250,7 @@
       </div>
 
     </footer>
-  </div>
+  
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="./js/menu.js"></script>

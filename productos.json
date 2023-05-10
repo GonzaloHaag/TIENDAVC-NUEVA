@@ -83,7 +83,7 @@
     },
     {
         "id":10,
-        "titulo":"Chomba Pique personalizada",
+        "titulo":"Chombas Pique personalizada",
         "imagen":"https://i.postimg.cc/Jh7r5ncr/chomba-8.webp",
         "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
         "categoria": {
@@ -106,24 +106,6 @@
         "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
         "categoria": {
             "id":"chombas"
-        }
-    },
-    {
-        "id":13,
-        "titulo":"Remera Sublimada",
-        "imagen":"https://i.postimg.cc/6p7g17XC/remera-1.webp",
-        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
-        "categoria": {
-            "id":"remeras"
-        }
-    },
-    {
-        "id":14,
-        "titulo":"Remera Sublimada",
-        "imagen":"https://i.postimg.cc/2SPMpzkM/remera-2.webp",
-        "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, voluptatem.",
-        "categoria": {
-            "id":"remeras" 
         }
     },
     {

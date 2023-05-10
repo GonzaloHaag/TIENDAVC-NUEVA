@@ -172,7 +172,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 0.5em;
+    padding-block: 0.8em;
     padding-left: 1.2em;
     margin-top: 1.2em;
     background-color:#E7E8EC;
@@ -446,6 +446,9 @@ main{
 .disabled{
     display: none;
 }
+.hidden{
+    visibility: hidden;
+}
 .header-desktop{
     display: none;
 }
@@ -530,6 +533,9 @@ main{
     padding: 0.1em 0.3em;
     z-index: 500;
 }
+.ver-mas-desktop{
+    display: none;
+}
 
 @media screen and (min-width:600px) {
      .footer{
@@ -560,6 +566,52 @@ main{
 
 
  @media screen and (min-width:768px) {
+   
+    .ver-mas{
+        display: none;
+    }
+    .ver-mas-desktop{
+        background-color: var(--pinkOscuro);
+        color:#fff;
+        width: max-content;
+        padding: 0.3em 0.8em;
+        border-radius: 2em;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+        border: 0;
+        transform: translateY(-50px);
+    }
+    .ver-mas-desktop.disabled{
+        display: none;
+    }
+   
+    .ocultar-desktop{
+        background-color: var(--pinkOscuro);
+        color:#fff;
+        width: max-content;
+        padding: 0.3em 0.8em;
+        border-radius: 2em;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+        border: 0;
+        transform: translateY(-50px);
+
+    }
+    .ocultar-desktop.disabled{
+        display: none;
+    }
+  
+    .div-container-desktop{
+       
+        padding-inline: 2em;
+    }
+
     .navbar-mobile{
         display: none;
     }
@@ -575,19 +627,40 @@ main{
     .banner-desktop{
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content:space-between;
         width: 100%;
-        margin-top: 2em;
+        margin-top: 0.5em;
+      
+        padding-right: 0;
+        
 
+    }
+    .tarjeta-wsp{
+       
+        padding-right: 0;
+        margin-right: 0;
+        width: 100%;
+        
+    }
+   
+    .texts-brand-wsp{
+        
+        margin-right: 0;
+        padding-right: 0;
+        width: 100%;
+        
     }
    
     .tarjeta-container{
         display: flex;
         flex-direction: row;
        align-items: flex-start;
-     
        padding-top: 0;
        gap: 0.5em;
+       width: max-content;
+       padding-right: 0;
+       margin-right: 0;
+      
       
     }
     .texts-brand{
@@ -597,10 +670,20 @@ main{
         line-height: 20px;
         align-items: flex-start;
         margin-top: 0;
+        padding-right: 0;
+        margin-right: 0;
+        
+    }
+    .banner-desktop-text{
+        width: 70%;
+    }
+    .consulta-footer{
+        width: max-content;
     }
    .texts-brand p:nth-child(1){
     margin-bottom: 0;
    }
+  
     .logo{
         display: none;
     }
@@ -609,7 +692,7 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     .header-contactanos{
@@ -630,13 +713,13 @@ main{
     .categorias-container-desktop{
         display: flex;
         flex-direction: column;
-        
     }
     
     .footer{
         position: absolute;
         width: 100%;
         right: 0;
+        
     }
     .categorias-container{
         display: none;
@@ -704,9 +787,18 @@ main{
        border-bottom: 2px solid var(--pinkOscuro);
         
     }
-
+  
     
 
+ }
+ @media screen and (min-width:950px) {
+    .div-container-desktop{
+        padding-inline: 10em;
+    }
+    .footer{
+        padding-inline: 10em;
+    }
+   
  }
 
 @media screen and (min-width:1200px){
@@ -717,37 +809,17 @@ main{
       
 
 }
-@media screen and (min-width:1400px){
-    .swiper{
-        transform: translateX(-60px);
-        width: 93%;
-        
-    }
-    .header-desktop{
-        
-        width: 82em;
-        padding-right: 8em;
-        
-    }
-}
 
 @media screen and (min-width:990px) {
 
      .tarjeta-container i{
-        font-size: 30px;
+        font-size: 25px;
       
     }
-    .texts-brand{
-        margin-left: 0.5em;
+    .redes-container{
+        margin-left: 0;
+        transform: translateX(0px);
     }
-    .texts-brand p:nth-child(1){
-        font-size: 18px;
-       
-    }
-   .texts-brand p:nth-child(2){
-    width: 15em;
-    font-size: 15px;
-   }
 }
 
 @media  screen and (max-width:992px) {
