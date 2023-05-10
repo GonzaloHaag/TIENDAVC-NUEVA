@@ -208,9 +208,7 @@ main{
    font-size: 13px;
   
 }
-.navbar-home a:hover{
-    text-decoration: underline;
-}
+
 .navbar-home a.active{
     border-bottom: 2px solid var(--verdeOscuro);
 }
@@ -279,6 +277,7 @@ main{
     padding-inline: 0.8em;
     width: 100%;
 }
+
 .producto p{
     text-align: center;
     font-size: 12px;

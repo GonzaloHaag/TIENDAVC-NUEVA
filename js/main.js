@@ -60,6 +60,7 @@ function mostrarProductos(arrayProductos){
         let div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
+       
         <img class="producto-img" src=${producto.imagen} alt=${producto.titulo}/>
         <div class="producto-detalles">
         <p>${producto.titulo}</p>
@@ -104,9 +105,13 @@ btnCategoriasMobile.forEach((btn)=>{
         if(idBotonMenu!= "todos") {
             const filterPorCategoria = todosLosProductos.filter((elemento) => elemento.categoria.id === idBotonMenu);
             mostrarProductos(filterPorCategoria);
+           
+            
         }
         else{
             mostrarProductos(todosLosProductos);
+         
+          
         }
     })
 })
