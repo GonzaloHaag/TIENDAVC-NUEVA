@@ -190,7 +190,7 @@ main{
     top: -3%;
     width: 100%;
     z-index: 200;
-    padding-top: 1.2em;
+    padding-top: 2em;
     
 }
 
@@ -293,17 +293,18 @@ main{
 .producto img{
     height: 150px;
     object-fit: scale-down;
+    margin: 0 auto;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    transition: 0.5s;
     overflow-x: hidden;
+   
    
    
 }
 .producto img.scale{
-    transform: scale(1.1);
-    transition: 0.5s;
-    overflow-x: hidden;
+
+    transform: scale(1.15);
+   
     
 }
 .producto-detalles{
