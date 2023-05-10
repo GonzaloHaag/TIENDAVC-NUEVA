@@ -106,10 +106,12 @@ btnCategoriasMobile.forEach((btn)=>{
             const filterPorCategoria = todosLosProductos.filter((elemento) => elemento.categoria.id === idBotonMenu);
             mostrarProductos(filterPorCategoria);
            
+           
             
         }
         else{
             mostrarProductos(todosLosProductos);
+            
          
           
         }
