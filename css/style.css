@@ -704,11 +704,16 @@ main{
        
         
     }
+    .body-nosotros{
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+    }
+   
     .footer-nosotros{
         position: absolute;
-        width: 100%;
-        right: 0;
         bottom: 0;
+        width: 100%;
     }
     .categorias-container{
         display: none;
