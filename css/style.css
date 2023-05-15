@@ -260,6 +260,7 @@ main{
     padding-right: 0.5em;
     margin-left: 5%;
     padding-left: 0;
+    width: 210%;
     
 }
 .list-categorias li {
@@ -268,11 +269,24 @@ main{
     background-color:#E7E8EC;
     padding: 0.2em 0.8em;
     user-select: none;
+
+ 
    
 }
+
+.list-categorias li:nth-child(7){
+    width: 12.5em;
+ }
+ .list-categorias li:nth-child(8){
+   
+    width: 13em;
+ }
 strong{
     color: var(--pinkClaro);
+   
+   
 }
+
 .productos-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
