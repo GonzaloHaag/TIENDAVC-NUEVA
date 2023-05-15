@@ -269,6 +269,69 @@
         "categoria": {
             "id":"bolsos" 
         }
+    },
+    {
+        "id":33,
+        "titulo": "Campera Pampero",
+        "imagen": "https://i.postimg.cc/VkXsL3HJ/camperas-3.webp",
+        "categoria": {
+            "id":"camperas"
+        }
+
+    },
+    {
+        "id":34,
+        "titulo": "Campera Pampero",
+        "imagen": "https://i.postimg.cc/bNJ2rNQs/camperas-4.webp",
+        "categoria": {
+            "id":"camperas"
+        }
+
+    },
+    {
+        "id":35,
+        "titulo": "Campera Pampero",
+        "imagen": "https://i.postimg.cc/HkMn8Jjs/camperas-2.webp",
+        "categoria": {
+            "id":"camperas"
+        }
+
+    },
+    {
+        "id":36,
+        "titulo": "Campera Pampero",
+        "imagen": "https://i.postimg.cc/QtfdZ1YS/camperas-1.webp",
+        "categoria": {
+            "id":"camperas"
+        }
+
+    },
+    {
+        "id":37,
+        "titulo": "Pantalón Pampero",
+        "imagen": "https://i.postimg.cc/qRtZQtn7/pantalones-1.webp",
+        "categoria": {
+            "id":"pantalones"
+        }
+
+    },
+    {
+        "id":38,
+        "titulo": "Pantalón Pampero",
+        "imagen": "https://i.postimg.cc/mrp5Q3Pq/pantalones-2.webp",
+        "categoria": {
+            "id":"pantalones"
+        }
+
+    },
+    {
+        "id":39,
+        "titulo": "Pantalón Pampero",
+        "imagen": "https://i.postimg.cc/TP3sLN3g/pantalones-3.webp",
+        "categoria": {
+            "id":"pantalones"
+        }
+
     }
   
    

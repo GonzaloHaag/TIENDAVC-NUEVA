@@ -61,11 +61,11 @@ main{
     }
 
     .swiper-slide img {
-      /* display: block; */
+     
       width: 100%;
      
       height:500px;
-      /* filter: brightness(0.5); */
+      
      
   }
 
@@ -267,6 +267,10 @@ main{
     font-size: 12px;
     background-color:#E7E8EC;
     padding: 0.2em 0.8em;
+   
+}
+strong{
+    color: var(--pinkClaro);
 }
 
 .productos-container{
@@ -470,7 +474,6 @@ main{
 }
 
 
-/**ESTE DIV CONTROLA PARA EL PADDING A LOS COSTADOS EN DESKTOP*/
 
 
 
@@ -538,8 +541,8 @@ main{
     background-color: #4DC247;
     color: #fff;
     font-size: 25px;
-     right: 5%;
-    bottom: 3%; 
+     right: 3%;
+    bottom: 2%; 
     border-radius: 50%;
     padding: 0.1em 0.3em;
     z-index: 500;
@@ -598,10 +601,7 @@ main{
     .ver-mas-desktop.disabled{
         display: none;
     }
-   /* .div-container-desktop{
-       
-        padding-inline: 2em;
-    } */
+
 
     .navbar-mobile{
         display: none;
@@ -734,6 +734,8 @@ main{
     }
     .list-categorias-desktop li{
         font-size: 12px;
+        user-select: none;
+        width: max-content;
     }
     .list-categorias-desktop li:hover{
         text-decoration: underline;
@@ -790,10 +792,10 @@ main{
         padding-left: 2em;
     }
     .swiper {
-        height: 600px;
+        height: 550px;
     }
     .swiper-slide img{
-      height: 600px;
+      height: 550px;
     }
     
     .bordado-container{
@@ -807,25 +809,17 @@ main{
     
 
  }
- @media screen and (min-width:950px) {
-    /* .div-container-desktop{
-        padding-inline: 10em;
-    } */
-    /* .footer{
-        padding-inline: 10em;
-    } */
-   
- }
+
 
 @media screen and (min-width:1200px){
     .productos-container{
         grid-template-columns: repeat(5,1fr);
     }
     .swiper {
-        height: 800px;
+        height: 700px;
     }
     .swiper-slide img{
-      height: 800px;
+      height: 700px;
     }
     
       
@@ -861,7 +855,7 @@ main{
     
 }
 
-/***INTENTANDO SOLUCIONAR LA PAGINA DE NOSOTROS**/
+
 
 @media screen and (min-width:708px) {
     .footer-nosotros{
