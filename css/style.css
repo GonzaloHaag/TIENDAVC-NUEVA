@@ -569,6 +569,12 @@ strong{
      .productos-container{
         grid-template-columns: repeat(3,1fr)
      }
+     .producto img.scale{
+
+        transform: scale(1);
+       
+        
+    }
      
 
  }
@@ -584,6 +590,7 @@ strong{
     .ver-mas{
         display: none;
     }
+   
     .ver-mas-desktop{
         background-color: var(--pinkOscuro);
         color:#fff;
