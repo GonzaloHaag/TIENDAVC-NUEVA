@@ -260,7 +260,8 @@ main{
     padding-right: 0.5em;
     margin-left: 5%;
     padding-left: 0;
-    width: 210%;
+    width: 55em;
+   
     
 }
 .list-categorias li {
@@ -274,13 +275,7 @@ main{
    
 }
 
-.list-categorias li:nth-child(7){
-    width: 12.5em;
- }
- .list-categorias li:nth-child(8){
-   
-    width: 13em;
- }
+
 strong{
     color: var(--pinkClaro);
    
