@@ -267,12 +267,12 @@ main{
     font-size: 12px;
     background-color:#E7E8EC;
     padding: 0.2em 0.8em;
+    user-select: none;
    
 }
 strong{
     color: var(--pinkClaro);
 }
-
 .productos-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
