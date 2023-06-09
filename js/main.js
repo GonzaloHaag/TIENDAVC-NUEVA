@@ -73,6 +73,13 @@ function mostrarProductos(arrayProductos){
     imagenesProducto.forEach((img)=>{
         img.addEventListener("click",()=>{
             img.classList.toggle("scale");
+            if(img.classList.contains("scale")) {
+                navbarFixed.classList.remove("fixed");
+            }
+            else{
+                navbarFixed.classList.add("fixed");
+            }
+            
         })
     })
 
